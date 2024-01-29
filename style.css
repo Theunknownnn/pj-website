@@ -1,0 +1,122 @@
+body{
+    background: linear-gradient(skyblue, rgb(255, 255, 255));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: black;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#title{
+    font-family: Noto Sans;
+    font-weight: 2000;
+    font-size: 100px;
+}
+
+.bannerImg{
+    width: 80%;
+    margin: auto;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    display: block;
+    border-radius: 20px;
+}
+
+h3{
+    font-family: Noto Sans;
+    margin-bottom: 0;
+}
+
+a{
+    font-family: Noto Sans;
+    text-decoration: none;
+    color: #2358C2;
+}
+
+.menuBar{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    font-family: Noto Sans;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, .9);
+
+}
+
+.menuBar-right{
+    float: right;
+}
+
+
+.menuItem{
+    opacity: 100%;
+    font-size: 20px;
+    transition-duration: .3s;
+    float: left;
+}
+
+.menuItem a {
+    opacity: 100%;
+    transition-duration: .3s;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menuItem a:hover{
+    opacity: 100%;
+    background-color: #111;
+}
+
+.content{
+    margin: auto;
+    width: 80%;
+}
+
+#maintext1{
+    font-family: Noto Sans;
+    font-weight: 1000;
+}
+
+#maintext2{
+    font-family: Noto Sans;
+    font-weight: 1000;
+}
+
+#maintext3{
+    font-family: Noto Sans;
+    font-weight: 1000;
+}
+
+#whatIs {
+    display: inline-block;
+}
+
+
+.infoText {
+    font-family: Noto Sans;
+}
+
+.infoPoint {
+    font-family: Noto Sans;
+}
+
+hr {
+    border-color: black;
+}
